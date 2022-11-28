@@ -1,4 +1,5 @@
 from BankAcc import BankAccount
+from inheritance import *
 
 alex = BankAccount("alex", 500)
 max = BankAccount("max")
@@ -18,3 +19,8 @@ print(f"Properties of alex: Holder: {max.holder}, Balance: {max.balance}")
 
 print(alex)
 print(max)
+
+circle = Circle("blue", 1, (2,3), 5)
+
+print(circle)
+print(circle.area())
