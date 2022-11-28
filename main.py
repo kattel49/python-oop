@@ -1,5 +1,6 @@
 from BankAcc import BankAccount
 from inheritance import *
+from method_res_inheritance import *
 
 alex = BankAccount("alex", 500)
 max = BankAccount("max")
@@ -24,3 +25,10 @@ circle = Circle("blue", 1, (2,3), 5)
 
 print(circle)
 print(circle.area())
+
+d1 = D()
+# python uses BFS to search for methods
+f1 = F()
+
+j1 = J()
+print(j1.y)
